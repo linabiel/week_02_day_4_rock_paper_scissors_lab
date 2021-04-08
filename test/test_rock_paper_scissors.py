@@ -1,8 +1,10 @@
 import unittest
 from src.rock_paper_scissors import *
+# from src.player_class import Player ???
+
 
 class TestRockPaperScissors(unittest.TestCase):
-    
+
     def setUp(self):
         self.player_1 = Player("lina", "rock")
         self.player_2 = Player("mark", "scissors")
