@@ -1,5 +1,5 @@
 import unittest
-from src.game import *
+from src.game import Game
 
 
 class TestGame(unittest.TestCase):
